@@ -1,0 +1,320 @@
+body {
+  color: #ae7c78;
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+  vertical-align: middle;
+  margin-right: 49px;
+  color: #ae7c78;
+  font-size: 24px;
+}
+
+hr {
+  border: none; /* Убираем границу */
+  background-color: #ae7c78; /* Цвет линии */
+  color: red; /* Цвет линии для IE6-7 */
+  height: 1px; /* Толщина линии */
+}
+
+nav {
+  margin-left: 90px;
+}
+
+.block-name {
+  width: 384px;
+}
+h1 {
+  font-size: 44px;
+}
+span {
+  font-style: italic;
+}
+main {
+  position: relative;
+  margin-left: 90px;
+}
+.block {
+  display: flex;
+}
+.block-name p {
+  font-size: 24px;
+}
+button {
+  font-size: 24px;
+  width: 285px;
+  height: 80px;
+  background: #d89999;
+  border-radius: 40px;
+  border: none;
+  color: white;
+}
+
+.block-photo1 {
+  margin-top: 140px;
+  margin-right: 30px;
+}
+
+.block-photo2 {
+  margin-top: 40px;
+}
+
+.description {
+  display: flex;
+}
+.description-block {
+  margin-right: 50px;
+  display: flex;
+}
+.description-block p {
+  width: 285px;
+}
+.description-block h3 {
+  margin-top: 40px;
+  margin-bottom: -10px;
+}
+.description-block-img {
+  margin-top: 50px;
+  margin-right: 25px;
+}
+.shop p {
+  width: 385px;
+}
+.shop h2 {
+  margin-bottom: 30px;
+  font-size: 34px;
+}
+.shop {
+  position: relative;
+}
+
+.shop-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.shop-block-container {
+  display: flex;
+}
+
+.shop-block-discription {
+  margin-top: 50px;
+  margin-right: 30px;
+}
+.shop-block-discription h3 {
+  font-size: 34px;
+}
+
+.shop-block-discription p {
+  max-width: 350px;
+}
+
+.shop-arrow img {
+  margin-right: 20px;
+}
+
+.picture {
+  display: flex;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.picture1 {
+  background: rgba(174, 124, 120, 0.6)
+    url("img/sammi-sP5CaWEN7Do-unsplash 1.jpg") no-repeat center center / 100%;
+  width: 387px;
+  height: 442px;
+}
+.background-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 36px;
+  width: 387px;
+  height: 442px;
+  z-index: 3;
+}
+.background-title p {
+  margin-top: -10px;
+  font-size: 20px;
+}
+.picture3 {
+  background: rgba(174, 124, 120, 0.6)
+    url("img/alyssa-strohmann-tnpr-hPOta0-unsplash\ 1.jpg") no-repeat center
+    center / 100%;
+  width: 387px;
+  height: 442px;
+}
+.picture2 {
+  background: rgba(174, 124, 120, 0.6)
+    url("img/fresh-beautiful-peony-flowers-vase\ 1.png") no-repeat center center /
+    100%;
+  width: 387px;
+  height: 442px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.background {
+  z-index: 2;
+  background: rgba(174, 124, 120, 0.6);
+  width: 387px;
+  height: 442px;
+  border-radius: 10px;
+}
+
+.sale {
+  display: flex;
+  margin-bottom: 60px;
+}
+
+.sale-title {
+  color: white;
+  background: #ae7c78;
+  width: 630px;
+  height: 391px;
+}
+
+.sale-title h3 {
+  max-width: 450px;
+  margin-top: 40px;
+  margin-left: 100px;
+  font-size: 44px;
+}
+
+.sale-title p {
+  max-width: 350px;
+  margin-left: 100px;
+  font-size: 24px;
+}
+.order-list {
+  display: flex;
+}
+.order-list li {
+  list-style-type: none;
+}
+
+.order-list li p {
+  width: 285px;
+  text-align: center;
+}
+
+.order-list li img {
+  display: block;
+  margin: 0 auto;
+}
+
+.order-list li h3 {
+  text-align: center;
+}
+
+.order h2 {
+  text-align: center;
+  margin-bottom: 36px;
+  font-size: 36px;
+}
+
+.new-flowers h3 {
+  font-size: 36px;
+  max-width: 370px;
+}
+
+.new-flowers p {
+  font-size: 24px;
+  max-width: 300px;
+}
+.new-flowers {
+  margin-right: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.new {
+  display: flex;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.new-container div {
+  margin-bottom: 16px;
+}
+
+.new-container {
+  margin-right: 16px;
+}
+
+.reviews {
+  border: 1px solid #ae7c78;
+  width: 1205px;
+  height: 250px;
+  margin-bottom: 60px;
+}
+
+.reviews h2 {
+  font-size: 36px;
+  text-align: center;
+}
+
+.reviews-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.reviews-container p {
+  max-width: 300px;
+  text-align: center;
+}
+
+.map {
+  position: relative;
+  background: url("img/map.jpg") no-repeat center center / 100%;
+  width: 100%;
+  height: 644px;
+}
+
+.coordinata {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  background: white;
+  width: 306px;
+  height: 480px;
+  padding-left: 80px;
+  padding-top: 40px;
+}
+.coordinata h2 {
+  text-align: center;
+  max-width: 250px;
+}
+.coordinat-value {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  max-width: 250px;
+}
+
+.coordinat-input {
+  text-align: center;
+  max-width: 250px;
+}
+
+footer {
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: -5px;
+  width: 100%;
+  height: 100px;
+  background: #ae7c78;
+}
+
+footer a {
+  font-size: 20px;
+  margin-top: 30px;
+  color: white;
+}
